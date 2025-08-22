@@ -24,6 +24,9 @@
                 <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="login-input"></asp:TextBox>
             </div>
             <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="login-button" OnClick="btnLogin_Click" />
+            <div class="form-group" style="text-align:right; margin-top:10px;">
+                <a href="ForgotPassword.aspx" class="forgot-password-link">Forgot Password?</a>
+            </div>
         </div>
     </form>
 </body>
