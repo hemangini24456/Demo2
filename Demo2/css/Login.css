@@ -1,0 +1,146 @@
+﻿body {
+    background: linear-gradient(135deg, #e3f0ff 0%, #b6d0e2 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bank-login-container {
+    width: 370px;
+    margin: 80px auto;
+    padding: 32px 28px 28px 28px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 60, 120, 0.12);
+    border: 1px solid #e0e8f3;
+    position: relative;
+}
+
+.bank-logo {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+    .bank-logo img {
+        width: 80px;
+        height: auto;
+    }
+
+.bank-login-container h2 {
+    text-align: center;
+    color: #003c78;
+    margin-bottom: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #003c78;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #b6d0e2;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #f7fbff;
+    transition: border-color 0.2s;
+}
+
+    .login-input:focus {
+        border-color: #0078d7;
+        outline: none;
+        background: #eef6fc;
+    }
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 120, 215, 0.08);
+    transition: background 0.2s;
+}
+
+    .login-button:hover {
+        background: #005fa3;
+    }
+
+.error-message {
+    color: #d8000c;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+/*body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .login-container label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .login-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background: #0078d7;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+        .login-container input[type="submit"]:hover {
+            background: #005fa3;
+        }
+
+    .login-container .error-message {
+        color: #d8000c;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+*/
