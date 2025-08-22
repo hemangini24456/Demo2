@@ -8,16 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/Login.css" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <%-- <div class="login-container">
-            <h2>Login</h2>
-            <asp:Label ID="lblMessage" runat="server" CssClass="error-message" ForeColor="Red"></asp:Label><br /><br />
-            <asp:Label ID="lblUsername" runat="server" Text="Username:" CssClass="login-label"></asp:Label><br />
-            <asp:TextBox ID="txtUsername" runat="server" CssClass="login-input" Width="150px"></asp:TextBox><br /><br />
-            <asp:Label ID="lblPassword" runat="server" Text="Password:" CssClass="login-label"></asp:Label><br />
-            <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="login-input" Width="150px"></asp:TextBox><br /><br />
-            <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="login-button" OnClick="btnLogin_Click" />
-        </div>--%>
+    <form id="form1" runat="server">        
         <div class="bank-login-container">
             <div class="bank-logo">
                 <img src="../images/bank-logo.png" alt="Bank Logo" />
