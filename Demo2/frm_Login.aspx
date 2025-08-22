@@ -27,6 +27,9 @@
             <div class="form-group" style="text-align:right; margin-top:10px;">
                 <a href="ForgotPassword.aspx" class="forgot-password-link">Forgot Password?</a>
             </div>
+            <div class="form-group" style="text-align:right; margin-top:5px;">
+                <a href="FrmRegister.aspx" class="create-user-link">Create User</a>
+            </div>
         </div>
     </form>
 </body>
