@@ -10,8 +10,9 @@
 <body>
     <form id="form1" runat="server">        
         <div class="bank-login-container">
-            <div class="bank-logo">
-                <img src="../images/bank-logo.png" alt="Bank Logo" />
+            <div class="bank-logo"> 
+
+                <img src="images/bank_logo.png" alt="Bank Logo" />
             </div>
             <h2>Secure Login</h2>
             <asp:Label ID="lblMessage" runat="server" CssClass="error-message"></asp:Label>
