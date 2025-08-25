@@ -18,11 +18,19 @@ namespace Demo2
         {
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
+            bool rememberMe = chkRememberMe.Checked;
 
             // Dummy credentials (for demo)
             if (username == "admin" && password == "password123")
             {
                 // Successful login
+                if (rememberMe)
+                {
+                    // Example: Set a persistent cookie (for demo purposes)
+                    HttpCookie cookie = new HttpCookie("BankUser", username);
+                    cookie.Expires = DateTime.Now.AddDays(7);
+                    Response.Cookies.Add(cookie);
+                }
                 Response.Redirect("Welcome.aspx");
             }
             else
