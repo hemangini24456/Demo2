@@ -30,7 +30,7 @@
                 <asp:Label ID="lblConfirmPassword" runat="server" Text="Confirm Password:" CssClass="login-label"></asp:Label>
                 <asp:TextBox ID="txtConfirmPassword" runat="server" TextMode="Password" CssClass="login-input"></asp:TextBox>
             </div>
-            <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="login-button"  />
+            <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="login-button" OnClick="btnRegister_Click"  />
             <div class="form-group" style="margin-top:10px;">
                 <a href="frm_Login.aspx" class="forgot-password-link">Back to Login</a>
             </div>
