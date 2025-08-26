@@ -18,6 +18,19 @@
                 btn.innerText = "Show";
             }
         }
+        function validateLogin() {
+            var username = document.getElementById('<%= txtUsername.ClientID %>').value.trim();
+            var password = document.getElementById('<%= txtPassword.ClientID %>').value.trim();
+            if (username === "") {
+                alert("Username is required.");
+                return false;
+            }
+            if (password === "") {
+                alert("Password is required.");
+                return false;
+            }
+            return true;
+        }
     </script>
 </head>
 <body>
@@ -45,7 +58,7 @@
                 <asp:CheckBox ID="chkRememberMe" runat="server" CssClass="remember-me-checkbox" />
                 <label for="chkRememberMe" class="remember-me-label">Remember Me</label>
             </div>
-            <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="login-button" OnClick="btnLogin_Click" />
+            <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="login-button" OnClick="btnLogin_Click" OnClientClick="return validateLogin();" />
             <div class="form-group" style="text-align: right; margin-top: 10px;">
                 <a href="ForgotPassword.aspx" class="forgot-password-link">Forgot Password?</a>
             </div>

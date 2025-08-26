@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Demo2/frm_Login.aspx
+/Demo2/frm_Login.aspx.cs

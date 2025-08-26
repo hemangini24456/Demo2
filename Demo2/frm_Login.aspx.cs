@@ -20,6 +20,22 @@ namespace Demo2
             string password = txtPassword.Text.Trim();
             bool rememberMe = chkRememberMe.Checked;
 
+            // Server-side validation
+            if (string.IsNullOrEmpty(username))
+            {
+                lblMessage.Text = "Username is required.";
+                return;
+            }
+            if (string.IsNullOrEmpty(password))
+            {
+                lblMessage.Text = "Password is required.";
+                return;
+            }
+            if (password.Length < 6)
+            {
+                lblMessage.Text = "Password must be at least 6 characters.";
+                return;
+            }
             // Dummy credentials (for demo)
             if (username == "admin" && password == "password123")
             {
